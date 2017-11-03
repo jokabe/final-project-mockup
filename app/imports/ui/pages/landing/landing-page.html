@@ -1,63 +1,37 @@
 <template name="Landing_Page">
+  <div id="main-area">
+    <div id="top-menu" class="ui borderless inverted menu">
+      <div class="ui container">
+        <span id="main-title">
+          <h1>University of Hawaii Carpool</h1>
+        </span>
 
-  <div class="landing-section-1">
-    <div class="ui grid">
-
-      <div class="row">
-        <div class="ui right aligned sixteen wide column">
+        <div class="right item">
           {{> Cas_Login }}
         </div>
-
       </div>
-      <div class="row">
-        <div class="ui center aligned sixteen wide column">
-          <h1 class="landing-section-1-welcome">Welcome to BowFolios</h1>
-          <h3 class="landing-section-1-tagline">Professional portfolios and networking for the University of Hawaii community</h3>
+    </div>
+
+    <div id="center-area">
+      <div class="ui center aligned grid">
+        <div class="row">
+          <h2>Create your Profile</h2>
+        </div>
+        <div class="row">
+          <h2>Mark your Location for a Pickup</h2>
+        </div>
+        <div class="row">
+          <h2>Mark the Area you can Pickup</h2>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="landing-section-2">
-    <div class="ui grid">
-      <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/profile.png">
-      </div>
-      <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Create your portfolio.</h1>
-        <h1 class="landing-section-header">Specify your interests.</h1>
-      </div>
-    </div>
+  <div id="footer">
+    <p>Created by a University of Hawaii at Manoa Student</p>
   </div>
 
-  <div class="landing-section-3">
-    <div class="ui grid">
-      <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Publish your portfolio in the BowFolio directory.</h1>
-      </div>
-      <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/directory.png">
-      </div>
-    </div>
-  </div>
-
-  <div class="landing-section-2">
-    <div class="ui grid">
-      <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/filter.png">
-      </div>
-      <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Find UH community members with similar interests.</h1>
-      </div>
-    </div>
-  </div>
-
-  <div class="landing-section-5">
-    <div class="ui grid">
-      <div class="ui center aligned sixteen wide column">
-        {{> Cas_Login size="large"}}
-      </div>
-    </div>
-  </div>
 
 </template>
+
+
